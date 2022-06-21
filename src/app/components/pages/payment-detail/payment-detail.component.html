@@ -1,0 +1,43 @@
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="col-md-8">
+        <h1>Araba Ekle</h1>
+        <form
+          style="margin-top: 50px"
+          [formGroup]="carAddForm"
+          (ngSubmit)="addCar()"
+        >
+          <h6>Günlük Fiyat</h6>
+          <div class="form-group">
+            <input
+              style="margin-top: 15px"
+              type="number"
+              id="dailyPrice"
+              formControlName="dailyPrice"
+              class="form-control"
+              placeholder="Günlük fiyat giriniz"
+            />
+            <div
+              class="alert alert-danger"
+              *ngIf="
+                carAddForm.get('dailyPrice').hasError('required') &&
+                carAddForm.get('dailyPrice').dirty
+              "
+            >
+              Günlük fiyat girmek zorunludur
+            </div>
+          </div>
+          <button
+            [disabled]="carAddForm.invalid"
+            style="margin-top: 15px"
+            type="submit"
+            class="btn btn-primary"
+          >
+            Ekle
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div> -->
