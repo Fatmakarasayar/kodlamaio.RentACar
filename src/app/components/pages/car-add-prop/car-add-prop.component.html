@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <div class="card ; col-md-4">
+      <img src="./assets/car/default.png" class="card-img-top" alt="..." />
+      <div class="card-body" *ngIf="car">
+        <h5 class="card-title">{{ car.brandName }}</h5>
+        <p class="card-text">Model: {{ car.description }}</p>
+        <p class="card-text">Renk: {{ car.colorName }}</p>
+        <p class="card-text">Günlük fiyat: {{ car.dailyPrice }}</p>
+      </div>
+
+    </div>
+    <div class="col-md-8">
+      <ul class="list-group" *ngFor="let carProp of carProps">
+        <li class="list-group-item">{{carProp.name}} <button style="float:right ;" type="button" class="btn btn-primary" (click)="addProp(carProp)">Ekle</button></li>
+      </ul>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,34 @@
+<h1>Araba Güncelle</h1>
+<form style="margin-top:50px ;" *ngIf="carUpdateForm" [formGroup]="carUpdateForm" (ngSubmit)="updateCar()">
+
+  <div class="form-group">
+    <input style="margin-top:15px ;" type="number" id="dailyPrice" [(ngModel)]="car.dailyPrice"
+      formControlName="dailyPrice" class="form-control">
+
+  </div>
+  <div class="form-group">
+    <input style="margin-top:15px ;" type="text" id="description" [(ngModel)]="car.description"
+      formControlName="description" class="form-control">
+
+  </div>
+  <h6>Renk</h6>
+  <div class="form-group">
+    <select style="margin-top:15px ;" class="form-control" required name="colorName" id="colorName"
+      formControlName="colorName">
+      <option *ngFor="let color of colors" [value]="color.colorName">
+        {{color.colorName}}
+      </option>
+    </select>
+  </div>
+  <h6>Marka</h6>
+  <div style="margin-top:15px ;" class="form-group">
+    <select class="form-control" required name="brandName" id="brandName" formControlName="brandName">
+      <option *ngFor="let brand of brands" [value]="brand.name">
+        {{brand.name}}
+      </option>
+    </select>
+  </div>
+  <button [disabled]="carUpdateForm.invalid" style="margin-top:15px ;" type="submit"
+    class="btn btn-primary">Ekle</button>
+
+</form>

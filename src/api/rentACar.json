@@ -1,0 +1,290 @@
+{
+  "brands": [
+    {
+      "id": 1,
+      "name": "Volkswagen",
+      "logo": "./assets/brand/volkswagen.png"
+    },
+    {
+      "id": 2,
+      "name": "BMW",
+      "logo": "./assets/brand/bmw.png"
+    },
+    {
+      "id": 3,
+      "name": "Honda",
+      "logo": "./assets/brand/honda.png"
+    },
+    {
+      "id": 4,
+      "name": "Hyundai",
+      "logo": "./assets/brand/hyundai.png"
+    },
+    {
+      "id": 5,
+      "name": "Porsche",
+      "logo": "./assets/brand/porsche.png"
+    },
+    {
+      "id": 6,
+      "name": "Volvo",
+      "logo": "./assets/brand/volvo.png"
+    },
+    {
+      "id": 7,
+      "name": "Skoda",
+      "logo": "./assets/brand/skoda.png"
+    },
+    {
+      "name": "Chery",
+      "logo": "./assets/brand/default.png",
+      "id": 8
+    },
+    {
+      "name": "Chevrolet",
+      "logo": "./assets/brand/default.png",
+      "id": 9
+    },
+    {
+      "name": "Citroen",
+      "logo": "./assets/brand/default.png",
+      "id": 10
+    },
+    {
+      "name": "Dacia",
+      "logo": "./assets/brand/default.png",
+      "id": 11
+    },
+    {
+      "name": "Alfa Romeo",
+      "logo": "./assets/brand/default.png",
+      "id": 12
+    },
+    {
+      "name": "Aston Martin",
+      "logo": "./assets/brand/default.png",
+      "id": 13
+    },
+    {
+      "name": "Isuzu",
+      "logo": "./assets/brand/default.png",
+      "id": 14
+    },
+    {
+      "name": "Nissan",
+      "logo": "./assets/brand/default.png",
+      "id": 15
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "brandId": 1,
+      "colorId": 1,
+      "dailyPrice": 350,
+      "description": "Polo",
+      "colorName": "Kırmızı",
+      "brandName": "Volswagen"
+    },
+    {
+      "id": 2,
+      "brandId": 2,
+      "colorId": 2,
+      "dailyPrice": 800,
+      "description": "BMW i4 M50",
+      "colorName": "Mavi",
+      "brandName": "BMW"
+    },
+    {
+      "id": 4,
+      "brandId": 4,
+      "colorId": 4,
+      "dailyPrice": 150,
+      "description": "ACCENT",
+      "colorName": "Beyaz",
+      "brandName": "Hyundai"
+    },
+    {
+      "id": 5,
+      "brandId": 5,
+      "colorId": 5,
+      "dailyPrice": 210,
+      "description": "718 Cayman",
+      "colorName": "Siyah",
+      "brandName": "Porsche"
+    },
+    {
+      "brandId": 2,
+      "colorId": 4,
+      "brandName": "BMW",
+      "colorName": "Beyaz",
+      "dailyPrice": 4000,
+      "description": "X7",
+      "id": 11
+    },
+    {
+      "brandId": 2,
+      "colorId": 3,
+      "brandName": "BMW",
+      "colorName": "Kahverengi",
+      "dailyPrice": 800,
+      "description": "deneme2",
+      "id": 12
+    },
+    {
+      "brandId": 2,
+      "colorId": 1,
+      "brandName": "BMW",
+      "colorName": "Kırmızı",
+      "dailyPrice": 505,
+      "description": "deneme58",
+      "id": 13
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "colorName": "Kırmızı"
+    },
+    {
+      "id": 2,
+      "colorName": "Mavi"
+    },
+    {
+      "id": 3,
+      "colorName": "Kahverengi"
+    },
+    {
+      "id": 4,
+      "colorName": "Beyaz"
+    },
+    {
+      "id": 5,
+      "colorName": "Siyah"
+    },
+    {
+      "colorName": "Yeşil",
+      "id": 6
+    },
+    {
+      "colorName": "Mor",
+      "id": 7
+    },
+    {
+      "colorName": "Gözlerinin rengi",
+      "id": 8
+    },
+    {
+      "colorName": "Gümüş",
+      "id": 9
+    },
+    {
+      "colorName": "Pembe",
+      "id": 10
+    },
+    {
+      "colorName": "Sarı",
+      "id": 11
+    },
+    {
+      "colorName": "Turuncu",
+      "id": 12
+    },
+    {
+      "colorName": "Lacivert",
+      "id": 13
+    },
+    {
+      "colorName": "Gri",
+      "id": 14
+    }
+  ],
+  "carProperties": [
+    {
+      "id": 1,
+      "name": "Adrese Teslim",
+      "unitPrice": 10,
+      "isChecked": false
+    },
+    {
+      "id": 2,
+      "name": "Adresten İade",
+      "unitPrice": 10,
+      "isChecked": false
+    },
+    {
+      "id": 3,
+      "name": "Ek Sürücü",
+      "unitPrice": 10,
+      "isChecked": false
+    },
+    {
+      "id": 4,
+      "name": "GPS",
+      "unitPrice": 10,
+      "isChecked": false
+    },
+    {
+      "id": 5,
+      "name": "Çocuk Koltuğu",
+      "unitPrice": 10,
+      "isChecked": false
+    },
+    {
+      "id": 6,
+      "name": "Güvence Paketi",
+      "unitPrice": 10,
+      "isChecked": false
+    },
+    {
+      "id": 7,
+      "name": "Yol Yardım Assistans",
+      "unitPrice": 10,
+      "isChecked": false
+    }
+  ],
+  "users": [
+    {
+      "eMail": "salihsenturk97@gmail.com",
+      "password": "123456"
+    },
+    {
+      "eMail": "ftmkrsyr0q@gmail.com",
+      "password": "1234567"
+    }
+  ],
+  "adresses": [
+    {
+      "id":1,
+      "userId":1,
+      "cityId":1,
+      "addressDetail":"Sancaktepe"
+    }
+  ],
+  "cities": [
+    {
+      "id":1,
+      "name":"Çanakkale"
+    },
+    {
+      "id":1,
+      "name":"Hatay"
+    },
+    {
+      "id":1,
+      "name":"Konya"
+    },
+    {
+      "id":1,
+      "name":"İstanbul"
+    },
+    {
+      "id":1,
+      "name":"Adana"
+    },
+    {
+      "id":1,
+      "name":"Ankara"
+    }
+  ]
+}
